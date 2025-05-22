@@ -1,0 +1,540 @@
+html, body, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+header{
+    height: 800px;
+    width: 100%;
+    background-image: url(images/imageone.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#fr{
+    padding: 40px;
+}
+
+.monstrance{
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    position: absolute;
+    right: 65%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-variant: small-caps;
+    padding: 40px;
+    padding-top: 20px;
+}
+
+#live{
+    height: 20px;
+    width: 30px;
+    border-radius: 20%;
+    border-color: red;
+}
+
+#menu{
+    height: 40px;
+    width: 80px;
+    border-radius: 20%;
+    border-color: red;
+    text-align: right;
+}
+
+#wailing{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: rgb(119, 21, 21);
+    font-weight: 600;
+    text-align: center;
+}
+
+.wailing2{
+    text-align: center;
+    color: rgb(230, 121, 121);
+}
+
+#dwailing2{
+    border-radius: 30px;  
+}
+
+
+
+#martop{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(187, 174, 199);
+    align-content: center;
+}
+
+.three{
+    width: 100%;
+}
+
+.threeinner{
+    height: 180px;
+    width: 100%;
+    background-image:url(images/3inner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+    font-size: 1rem;
+}
+
+#joinnow{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color:rgb(159, 134, 230);
+    color: white;
+}
+
+#ovirgin{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(180, 162, 196);
+    align-content: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+#ouradventure{
+    text-align: center;
+    color: rgb(49, 8, 88);
+    font-size: xx-large;
+}
+
+.emerge{
+    text-align: center;
+}
+
+span{
+    color: rgb(58, 10, 107);
+    font-weight: bold;
+}
+
+.gallery{
+    height: 330px;
+    width: 260px;
+    background-color: red;
+    border: 2px solid rgb(185, 153, 214);
+    border-radius: 20px;
+    align-content: end;
+    color: white;
+}
+
+.four-inner{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    padding-left: 80px;
+}
+
+#trans{
+    background-color: rgb(54, 44, 44);
+    color: white;
+    height: 40px;
+}
+
+#alterboys{
+    background-image: url(images/alterboys.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#rosary{
+    background-image: url(images/rosary.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#flower{
+    background-image: url(images/flower.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#watch{
+    text-align: center;
+}
+
+.adven-recap{
+    height: 300px;
+    width: 100%;
+}
+
+.iframe{
+    padding-left: 200px;
+}
+
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: blueviolet;
+}
+
+h4{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(134, 42, 219);
+    padding-bottom: 20px;
+}
+
+#ourlady{
+    text-align: center;
+    color: rgb(172, 82, 82);
+    padding-bottom: 40px;
+}
+
+.pics1inner1{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/rosary.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#prayer,
+#marystory,
+#document{
+    background-color: white;
+    padding-left: 20px;
+    position: relative;
+    top: 7%;
+}
+
+.pics1inner2{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/marystory.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.pics1inner3{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/document.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mary-pics1{
+    display: flex;
+    gap: 40px;
+    padding-left: 80px;
+}
+
+#section1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+#section2{
+    padding-bottom: 30px;
+    color: rgb(189, 127, 127);
+}
+
+.pics2inner1{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/rosarybeads.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Rosarybeads,
+#teaching,
+#adventures{
+    background-color: white;
+    position: relative;
+    top: 7%;
+}
+
+.pics2inner2{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/teaching.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.pics2inner3{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/alterboys.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mary-pics2{
+    display: flex;
+    gap: 40px;
+    padding-left: 80px;
+}
+
+.mary-pics3{
+    display: flex;
+    gap: 40px;
+    padding-left: 280px;
+   
+}
+
+.pics3inner1{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/imageone.jpg);
+    background-size: 580px;
+}
+
+#term,
+#gallerybrowse{
+    background-color: white;
+    position: relative;
+    top: 7%;
+}
+
+.pics3inner2{
+    height: 450px;
+    width: 360px;
+    border-radius: 20px;
+    align-content: end;
+    background-image: url(images/flower.jpg);
+    background-size: 580px;
+}
+
+#gallerybrowse{
+    background-color: white;
+}
+
+#connectus{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    Color: rgb(226, 116, 76);
+    font-size: xx-large;
+}
+
+.skypeconnect{
+    height: 400px;
+    width: 100%;
+    background-image: url(images/wailing2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.joinskype{
+    text-align: center;
+    padding-top: 150px;
+}
+
+#joinour{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#skypejoin{
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(148, 113, 180);
+}
+
+.six{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(80, 226, 80);
+    padding-left: 130px;
+    padding-top: 100px;
+}
+
+.get-we{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#get{
+    font-size: xx-large;
+}
+
+.form-map{
+    display: flex;
+    gap: 50px;
+}
+
+#loc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+#submit{
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(131, 96, 165);
+}
+
+#day{
+    font-weight: 1000;
+}
+
+#firstname{
+    width: 100px;
+}
+
+footer{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+}
+
+#imgpicour{
+    font: 300;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#title{
+    color: rgb(216, 55, 55);
+}
+
+.titleinner{
+    color: rgb(141, 138, 133);
+}
+
+.footercontact{
+    display: flex;
+    padding: 150px;
+    gap: 300px;
+}
+
+.st{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: rgb(177, 160, 136);
+    text-align: center;
+}
+
+@media (max-width: 768px){
+
+    .adven-recap{
+        height: 500px;
+        width: 100%;
+    }
+    
+    .iframe{
+        padding-right: 0px;
+    }
+    
+
+    .four-inner{
+        height: 700px;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 90px;
+    }
+    
+
+    .six{
+        height: 1250px;
+        width: 100%;
+        background-color: rgb(80, 226, 80);
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .form-map{
+        flex-direction: column;
+    }
+
+    .mary-pics1{
+        flex-direction: column;
+    }
+
+    .mary-pics2{
+        flex-direction: column;
+    }
+
+    .mary-pics3{
+        flex-direction: column;
+
+    }.mary-pics3{
+        display: flex;
+        gap: 40px;
+        padding-left: 90px;  
+    }
+
+    .form-map{
+        flex-direction: column;
+    }
+
+    .gallery{
+        gap: 40px;
+    }
+
+    h1, h4, h5, #ouradventure {
+        font-size: large;
+    }
+
+    footer{
+        height: 1300px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .footercontact{
+        flex-direction: column;
+        text-align: center;
+        padding: 150px;
+        gap: 70px;
+    }
+ 
+}
